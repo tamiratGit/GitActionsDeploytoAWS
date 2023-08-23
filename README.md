@@ -1,5 +1,7 @@
 ## Integrating with GitHub Actions – CICD pipeline to Deploy a Web App to Amazon EC2
 
+foo
+
 Many Organizations adopt [DevOps Practices](https://aws.amazon.com/devops/what-is-devops/) to innovate faster by automating and streamlining the software development and infrastructure management processes. Beyond cultural adoption, DevOps also suggests following certain best practices and Continuous Integration and Continuous Delivery (CI/CD) is among the important ones to start with. CI/CD practice reduces the time it takes to release new software updates by automating deployment activities. Many tools are available to implement this practice. Although AWS has a set of native tools to help achieve your CI/CD goals, it also offers flexibility and extensibility for integrating with numerous third party tools.
 
 In this post, you will use [GitHub Actions](https://help.github.com/en/actions) to create a CI/CD workflow and [AWS CodeDeploy](https://aws.amazon.com/codedeploy/) to deploy a sample Java SpringBoot application to Amazon Elastic Compute Cloud ([Amazon EC2](https://docs.aws.amazon.com/ec2/index.html?nc2=h_ql_doc_ec2#amazon-ec2)) instances in an Autoscaling group.
